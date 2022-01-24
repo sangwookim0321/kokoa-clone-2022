@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css"; /* HTML의 기본 속성값을 초기화 */
+@import "status-bar.css"; /* 최상단 바의 CSS */
+@import "variables.css"; /* 루트의 색상 */
+@import "login.css"; /* 로그인 폼 CSS */
+@import "nav-bar.css"; /* 네비게이션 바텀 CSS */
+@import "screen-header.css"; /* 헤더 바 CSS */
+@import "friends.css"; /* 친구 검색 CSS */
+@import "user-components.css"; /* 유저 속성 CSS(이미지 등) */
+@import "badge.css";
+@import "find.css";
+@import "icon-row.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "settings.css";
+@import "chatscreen.css";
+
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+  background-color: #abc1d1;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
